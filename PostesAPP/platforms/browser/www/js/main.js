@@ -34,7 +34,7 @@
         return check;
     });
 
-
+/*
     $('.validate-form .input100').each(function(){
         $(this).focus(function(){
            hideValidate(this);
@@ -66,7 +66,7 @@
         $(thisAlert).removeClass('alert-validate');
     }
     
-    /*==================================================================
+    ==================================================================
     [ Show pass ]*/
     var showPass = 0;
     $('.btn-show-pass').on('click', function(){
